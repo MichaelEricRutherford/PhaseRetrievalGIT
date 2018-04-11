@@ -1,5 +1,7 @@
 %% Adding some test comments for GIT
 
+% Another test
+
 function [density] = functionPhaseToDensity(phase, thickness, lambda)
 
 phase(phase > -0.15) = 0;
